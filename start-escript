@@ -1,0 +1,16 @@
+#!/usr/bin/env escript
+%%! -pa ebin deps/*/ebin interfaces/*/ebin  -boot start_sasl  -name skynet -s skynet -s reloader
+
+main([])->
+	application:start(skynet),
+	%tv:start(),
+	%appmon:start(),
+	%pman:start(),
+	loop().
+	
+loop() ->
+	lib_misc:sleep(3153600000),
+	loop().
+
+%  erl -sname console -remsh skynet@pluto -setcookie organization
+

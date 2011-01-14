@@ -1,0 +1,6 @@
+{skynet_nodes, ['altaire.pyn.ru', 'cruise.pyn.ru', 'hhtest.pyn.ru', 'hhpro.ru']}.
+
+
+% Reload:
+%  erl -sname console -remsh skynet@pluto -setcookie organization
+%  gen_server:call(config, reload_config_local).
