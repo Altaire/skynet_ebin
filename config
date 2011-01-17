@@ -1,4 +1,4 @@
-{skynet_nodes, ['altaire.pyn.ru', 'cruise.pyn.ru', 'hhtest.pyn.ru', 'hhpro.ru']}.
+{skynet_nodes, ['altaire.pyn.ru', 'cruise.pyn.ru', 'matrix.pyn.ru', 'hhtest.pyn.ru', 'hhpro.ru']}.
 
 
 % Reload:
