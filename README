@@ -1,0 +1,8 @@
+* Install:
+
+mkdir /var/log/skynet /var/run/skynet
+git clone git@github.com:Altaire/skynet_ebin.git /var/lib/skynet
+add value to .erlang.cookie
+
+* Start:
+start skynet
