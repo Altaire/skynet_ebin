@@ -42,9 +42,6 @@
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-id@thisnode', "http://127.0.0.1:9100/status"]}}
 ], [{infinity, 10000}]}.
 
-
-%%%%%%%%%%%%%% TO CHECK
-
 {transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-translation@thisnode', "http://127.0.0.1:9002/status"]}}
 ], [{infinity, 10000}]}.
@@ -54,11 +51,14 @@
 ], [{infinity, 10000}]}.
 
 
-%%%%%%%%%%%%%% TO EDIT & ADMIN
+%%%%%%%%%%%%%% TO CHECK
 
-{transaction, noref,  [skynet@cruise.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-partner-action@thisnode', "http://127.0.0.1:9112/status"]}}
 ], [{infinity, 10000}]}.
+
+
+%%%%%%%%%%%%%% TO EDIT & ADMIN
 
 {transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-employer@thisnode', "http://127.0.0.1:9150/status"]}}
