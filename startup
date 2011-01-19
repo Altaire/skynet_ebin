@@ -54,8 +54,6 @@
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-partner-action@thisnode', "http://127.0.0.1:9112/status"]}}
 ], [{infinity, 10000}]}.
 
-%%%%%%%%%%%%%% TO CHECK
-
 {transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-employer@thisnode', "http://127.0.0.1:9150/status"]}}
 ], [{infinity, 10000}]}.
@@ -64,13 +62,25 @@
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-makeup@thisnode', "http://127.0.0.1:9152/status"]}}
 ], [{infinity, 10000}]}.
 
+%%%%%%%%%%%%%% TO CHECK
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.ru], [
+	{event, thisnode, {'get_web_service_status[xml_hh]', ['mailer-worker@thisnode', "curl http://127.0.0.1:9166/status"]}}
+], [{infinity, 10000}]}.
+
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.ru], [
+	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-search@thisnode', "http://127.0.0.1:9099/status"]}}
+], [{infinity, 10000}]}.
+
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.ru], [
+	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-resume-export@thisnode', "http://127.0.0.1:9004/status"]}}
+], [{infinity, 10000}]}.
 
 %%%%%%%%%%%%%% TO EDIT & ADMIN
 
+{transaction, noref,  [skynet@hhpro.ru], [
+	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-kvs@thisnode', "http://127.0.0.1:9005/status"]}}
+], [{infinity, 10000}]}.
 
-%{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.ru], [
-%	{event, thisnode, {'get_web_service_status[xml_hh]', ['mailer-worker@thisnode', "curl http://127.0.0.1:9166/status"]}}
-%], [{infinity, 10000}]}.
 
 
 %%%%%%%%%%%%%%% TODO
