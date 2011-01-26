@@ -95,8 +95,22 @@
 ], [{infinity, 10000}]}.
 
 %%%%%%%%%%%%%% TO CHECK
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.ru], [
+	{event, thisnode, {'get_version[dpkg]', ['java@thisnode', "sun-java6-jdk"]}}
+], [{infinity, 10000}]}.
 
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.ru], [
+	{event, thisnode, {'get_version[dpkg]', ['erlang@thisnode', "erlang"]}}
+], [{infinity, 10000}]}.
 
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.ru], [
+	{event, thisnode, {'get_version[dpkg]', ['rabbitmq@thisnode', "rabbitmq-server"]}}
+], [{infinity, 10000}]}.
+
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.ru], [
+	{event, thisnode, {'get_version[dpkg]', ['image-rescaler@thisnode', "image-rescaler"]}}
+], [{infinity, 10000}]}.
+                                                     
 %%%%%%%%%%%%%% TO EDIT & ADMIN
 
 {transaction, noref,  [skynet@hhpro.ru], [
@@ -112,7 +126,7 @@
 %	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-indexer-worker@thisnode', "http://127.0.0.1:    /status"]}}
 %], [{infinity, 10000}]}.
               
-%RabbitMQ queues              http://guest:guest@localhost:55672/api/overview
+%RabbitMQ queues 
 
 %%%%%%%%%%%%%%%
 
