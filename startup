@@ -10,117 +10,117 @@
 	{event, thisnode, {'get_load_average[linux]', [load_average@thisnode]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-auth-proxy@thisnode', "http://127.0.0.1:9118/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-autosearch@thisnode', "http://127.0.0.1:9104/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-banner-back@thisnode', "http://127.0.0.1:9120/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-banner-front@thisnode', "http://127.0.0.1:9220/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-session@thisnode', "http://127.0.0.1:9202/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-id@thisnode', "http://127.0.0.1:9100/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-translation@thisnode', "http://127.0.0.1:9002/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-negotiations@thisnode', "http://127.0.0.1:9110/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-partner-action@thisnode', "http://127.0.0.1:9112/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-employer@thisnode', "http://127.0.0.1:9150/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-makeup@thisnode', "http://127.0.0.1:9152/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-search@thisnode', "http://127.0.0.1:9099/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-resume-export@thisnode', "http://127.0.0.1:9004/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['mailer-worker@thisnode', "http://127.0.0.1:9166/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-as@thisnode', "http://127.0.0.1:9200/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-xmlback@thisnode', "http://127.0.0.1:9204/status"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-crm@thisnode', "http://127.0.0.1:8118/status"]}}
 ], [{infinity, 10000}]}.
 
 %%%%%%%%%%%%%% URL -> status
 
- {transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+ {transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-frontik@thisnode', "http://127.0.0.1:9300/version/"]}}
 ], [{infinity, 10000}]}.
 
 % In content-1.8.18 version url -> /status
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-planeta@thisnode', "http://127.0.0.1:9102/services/version"]}}
 ], [{infinity, 10000}]}.
 
 % In trunk
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-tests@thisnode', "http://127.0.0.1:9108/status"]}}
 ], [{infinity, 10000}]}.
 
 %%%%%%%%%%%%%% TO CHECK
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_version[dpkg]', ['java@thisnode', "sun-java6-jdk"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_version[dpkg]', ['erlang@thisnode', "erlang"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_version[dpkg]', ['rabbitmq@thisnode', "rabbitmq-server"]}}
 ], [{infinity, 10000}]}.
 
-{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_version[dpkg]', ['image-rescaler@thisnode', "image-rescaler"]}}
 ], [{infinity, 10000}]}.
                                                      
 %%%%%%%%%%%%%% TO EDIT & ADMIN
 
-{transaction, noref,  [skynet@hhpro.pyn.ru], [
+{transaction, noref,  [skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-kvs@thisnode', "http://127.0.0.1:9005/status"]}}
 ], [{infinity, 10000}]}.
 
 
 %%%%%%%%%%%%%%% TODO
 
-%{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru], [
+%{transaction, noref,  [skynet@cruise.pyn.ru, skynet@matrix.pyn.ru, skynet@hhtest.pyn.ru, skynet@hhpro.pyn.ru,skynet@hydrogen.pyn.ru], [
 %	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-indexer-worker@thisnode', "http://127.0.0.1:    /status"]}}
 %], [{infinity, 10000}]}.
               
@@ -135,7 +135,7 @@
 %	{event, thisnode, {'get_swap_usage[linux]', [swap@thisnode]}}
 %], [{infinity, 60000}]}.
 
-%{transaction, noref, [skynet@pluto,  skynet@hhtest, skynet@hhpro.pyn], [
+%{transaction, noref, [skynet@pluto,  skynet@hhtest, skynet@hhpro], [
 %	{event, thisnode, {'get_raid_state[mdraid]', [raid@thisnode]}}
 %], [{infinity, 60000}]}.
 
