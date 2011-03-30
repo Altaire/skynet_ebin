@@ -78,6 +78,10 @@
 	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-crm@thisnode', "http://127.0.0.1:8118/status"]}}
 ], [{infinity, 10000}]}.
 
+{transaction, noref,  [skynet@cruise.pyn.ru, skynet@astra.pyn.ru, skynet@blackhole.pyn.ru, skynet@sun.pyn.ru, skynet@quasar.pyn.ru, skynet@hypernova.pyn.ru, skynet@hhtest.pyn.ru, skynet@hydrogen.pyn.ru], [
+	{event, thisnode, {'get_web_service_status[xml_hh]', ['hh-indexer-worker@thisnode', "http://127.0.0.1:9167/status"]}}
+], [{infinity, 10000}]}.
+
 %%%%%%%%%%%%%% URL -> status
 
  {transaction, noref,  [skynet@cruise.pyn.ru, skynet@astra.pyn.ru, skynet@blackhole.pyn.ru, skynet@sun.pyn.ru, skynet@quasar.pyn.ru, skynet@hypernova.pyn.ru, skynet@hhtest.pyn.ru, skynet@hydrogen.pyn.ru], [
