@@ -1,5 +1,4 @@
-{skynet_nodes, ['altaire.pyn.ru', 'cruise.pyn.ru', 'matrix.pyn.ru', 'hhtest.pyn.ru', 'hhpro.ru']}.
-
+{skynet_nodes, ['skynet@cruise.pyn.ru', 'skynet@astra.pyn.ru', 'skynet@blackhole.pyn.ru', 'skynet@sun.pyn.ru', 'skynet@quasar.pyn.ru', 'skynet@hypernova.pyn.ru', 'skynet@altaire.pyn.ru', 'skynet@hhtest.pyn.ru']}.
 
 % Reload:
 %  erl -sname console -remsh skynet@pluto -setcookie organization
