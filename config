@@ -1,5 +1,5 @@
-{skynet_nodes, ['skynet@cruise.pyn.ru', 'skynet@astra.pyn.ru', 'skynet@blackhole.pyn.ru', 'skynet@sun.pyn.ru', 'skynet@quasar.pyn.ru', 'skynet@hypernova.pyn.ru', 'skynet@altaire.pyn.ru', 'skynet@hhtest.pyn.ru']}.
+{skynet_nodes, ['cruise.pyn.ru', 'hydrogen.pyn.ru','astra.pyn.ru', 'blackhole.pyn.ru', 'sun.pyn.ru', 'quasar.pyn.ru', 'hypernova.pyn.ru', 'altaire.pyn.ru', 'hhtest.pyn.ru']}.
 
 % Reload:
-%  erl -sname console -remsh skynet@pluto -setcookie organization
+%  erl -sname console -remsh pluto -setcookie organization
 %  gen_server:call(config, reload_config_local).
