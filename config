@@ -1,4 +1,4 @@
-{skynet_nodes, ['cruise.pyn.ru', 'hydrogen.pyn.ru','astra.pyn.ru', 'blackhole.pyn.ru', 'sun.pyn.ru', 'quasar.pyn.ru', 'hypernova.pyn.ru', 'altaire.pyn.ru', 'hhtest.pyn.ru']}.
+{skynet_nodes, ['alfa.pyn.ru','cruise.pyn.ru', 'hydrogen.pyn.ru','astra.pyn.ru', 'blackhole.pyn.ru', 'sun.pyn.ru', 'quasar.pyn.ru', 'hypernova.pyn.ru', 'altaire.pyn.ru', 'hhtest.pyn.ru']}.
 
 % Reload:
 %  erl -sname console -remsh pluto -setcookie organization
